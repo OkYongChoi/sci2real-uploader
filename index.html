@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sci2real uploader</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1f2328; --bg:#ffffff; --muted:#59636e; --link:#0969da; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e6edf3; --bg:#0d1117; --muted:#9198a1; --link:#4493f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  a { color:var(--link); } .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>sci2real uploader</h1>
+  <p>sci2real uploader is a personal automation tool run by the owner of the
+  <a href="https://www.youtube.com/@sci2real">sci2real YouTube channel</a>.
+  Once a day it builds a short English video that introduces the repositories trending on GitHub that day,
+  and uploads it to the owner's own channel through the YouTube Data API.</p>
+  <h2>What it does</h2>
+  <ul>
+    <li>Reads the public <a href="https://github.com/trending">GitHub Trending</a> page and each repository's public README.</li>
+    <li>Generates a 1080×1920 video with narration and motion graphics.</li>
+    <li>Uploads that video to the sci2real channel with the <code>youtube.upload</code> scope.</li>
+  </ul>
+  <p>It is not offered to other users. It does not read, collect or store data about any YouTube user other than the channel owner.</p>
+  <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></p>
+  <p class="muted">This tool uses YouTube API Services. See the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+  and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+</main>
+</body>
+</html>

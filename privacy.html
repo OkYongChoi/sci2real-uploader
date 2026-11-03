@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1f2328; --bg:#ffffff; --muted:#59636e; --link:#0969da; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e6edf3; --bg:#0d1117; --muted:#9198a1; --link:#4493f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  a { color:var(--link); } .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy — sci2real uploader</h1>
+  <p class="muted">Effective date: November 3, 2026</p>
+
+  <p>sci2real uploader ("the app") is a personal tool used only by the owner of the
+  <a href="https://www.youtube.com/@sci2real">sci2real YouTube channel</a> to upload that channel's own videos.
+  This policy explains what data the app uses.</p>
+
+  <h2>YouTube API Services</h2>
+  <p>The app uses YouTube API Services. By using the app you agree to be bound by the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Data the app accesses</h2>
+  <ul>
+    <li>The app requests a single OAuth scope, <code>https://www.googleapis.com/auth/youtube.upload</code>, which lets it upload videos to the authorizing account's channel.</li>
+    <li>It does not read channel analytics, comments, subscribers, watch history or any other user data.</li>
+    <li>It does not access data of any YouTube user other than the channel owner who authorizes it.</li>
+  </ul>
+
+  <h2>How data is stored and shared</h2>
+  <ul>
+    <li>The OAuth token is stored only on the owner's own computer, in a local file readable by that user. It is never sent anywhere except to Google's OAuth and YouTube API endpoints.</li>
+    <li>No data is sold, shared with third parties, or used for advertising.</li>
+    <li>The app does not use cookies or analytics.</li>
+  </ul>
+
+  <h2>Revoking access</h2>
+  <p>Access can be revoked at any time from the Google account security settings at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Deleting the local token file removes the app's stored credentials.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be raised at
+  <a href="https://github.com/OkYongChoi/sci2real-uploader/issues">github.com/OkYongChoi/sci2real-uploader/issues</a>.</p>
+
+  <p><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></p>
+</main>
+</body>
+</html>
